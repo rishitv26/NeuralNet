@@ -18,7 +18,7 @@
     <ClCompile Include="test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="neuralnet\net.cpp">
+    <ClCompile Include="neuralnet\nnet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
