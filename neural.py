@@ -7,6 +7,12 @@ X = [
     [-1.5, 2.7, 3.3, -0.8],
 ]
 
+def ReLU(x):
+    if x > 0:
+        return x
+    else:
+        return 0.0
+
 class Layer:
     def __init__(self, n_inputs, n_neurons):
         self.weights = 0.1 * np.random.randn(n_inputs, n_neurons)
